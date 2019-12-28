@@ -5,13 +5,12 @@ Naczelną zasadą jest, że w każdym wierszu musi być liczba wyrazów odpowiad
 oraz że liczba kolumn i wierszy musi być taka sama. Poza tym pierwsza litera w pliku .txt podaje typ zmiennych F - float, D - double.
 
 Przykład z pliku macierz_1.txt:
-<początek pliku>
+```
 F
 0.9 1.3 -1.3 0.62
 -1.5 0.2 -2.1 3.09
 2.2 -2.9 -2.4 -0.93
-<koniec pliku>
-
+```
 zatem pierwszy wiersz to:
 0.9x + 1.3y - 1.3z = 0.62
 
@@ -25,12 +24,12 @@ zaś folder "przykładowe macierze" umieścić w folderze z plikami źródłowym
 Nie ma większych wymagań co do oprogramowania potrzebnego do uruchomienia programu. 
 W trakcie tworzenia oprogramowania korzystano z Microsoft Visual Studio Community 2019 16.1.0
 
-## Działanie testów
+## Testy
 
 Przygotowane są 2 przykładowe testy demo3 oraz demo4 różniące się liczbą niewiadomych. 
 Można je uruchomić bezpośrednio z poziomu aplikacji.
 
-### Wynik testów
+### Wyniki testów
 
 Ich zadaniem jest pokazać przykładowe rozwiązane w konsoli. Wynik podawany jest w formie macierzy jednostkowej.
 
